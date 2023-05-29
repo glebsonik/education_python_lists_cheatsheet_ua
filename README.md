@@ -6,9 +6,9 @@ Lists
 ----
 ```python
 names = ["Andrii", "Jack", "Bob"] # Наш список імен
-len(names)                        # Поверне 3
-names.index("Jack")               # Поверне 1
-names[2]                          # Поверне Bob
+len(names)                        # Поверне 3, кількість елементів
+names.index("Jack")               # Поверне 1, тобто порядковий номер
+names[2]                          # Поверне Bob, тобто третій елемент з нульового
 names[-1]                         # Поверне Bob (рахуємо з кінця)
 names[-2]                         # Поверне Jack (рахуємо з кінця)
 names.insert(1, "John")           # Додасть імʼя John на вказаний індекс
